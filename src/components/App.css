@@ -1,0 +1,155 @@
+body{
+	background-color: rgb(21, 32, 43);
+}
+
+/*Right Block*/
+h2{
+	color: white;
+	font-family: Arial;
+	font-size: 19px;
+}
+
+.header-container input{
+	background-color: rgb(37, 51, 65);
+	border: none;
+	width: 350px;
+	height: 40px;
+	border-radius: 20px;
+	color: white;
+	font-size: 17px;
+}
+.header-container{
+	position: absolute;
+	right: 6%;
+	top: 5px;
+}
+.header-container div{
+	background-color: rgb(27, 40, 54); 
+	margin-top: 20px;
+	border-radius: 20px;
+}
+.header-container div p{
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	border-top: 1px solid rgb(136, 153, 166,0.4);
+	padding-top: 12px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.header-container div p spam{
+	color: rgb(27, 149, 224);
+	font-size: 15px;
+	font-weight: normal;
+}
+.header-container div a{
+	text-decoration: none;
+}
+.header-container div p:hover{
+	background-color: rgb(37, 51, 65);
+	transition: 0.1s;
+}
+.header-container div h2{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+/*Middle Block*/
+.middleBlock{
+	width: 41.7%;
+	position: absolute;
+	right: 33%;
+	top: 0px;
+	border: 1px solid rgb(136, 153, 166,0.4);
+	border-top: none;
+}
+.middleBlock h2{
+	padding-top: 15px;
+	padding-left: 18px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid rgb(136, 153, 166,0.4);
+}
+.middleHeader img{
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.middleHeader input{
+	width: 400px;
+	height: 39px;
+	border-radius: 20px;
+	background-color: rgb(37, 51, 65);
+	border: none;
+	margin-left: 15px;
+	color: gray;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.Post{
+	color: white;
+	border-top: 1px solid rgb(136, 153, 166,0.4);
+	padding: 10px;
+}
+.Post spam{
+	font-weight: bold;
+	margin: 10px 10px 0px 0px;
+
+}
+.postPerfil{
+	height: 55px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+}
+.contentPost{
+	font-size: 17px;
+}
+
+/*Left Block*/
+.leftBlock{
+	margin-left: 88px;
+}
+.leftBlock img{
+	width: 30px;
+	margin: 10px;
+}
+.leftBlock p{
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 25px;
+	width: 200px;
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-left: -10px;
+}
+.leftBlock p img{
+	float: left;
+	margin-right: 15px;
+}
+.leftBlock p:hover{
+	background-color: rgb(27, 40, 54);
+	color: rgb(27, 149, 224);
+	transition: 0.1s;
+}
+.left-B{
+	padding: 12px;
+	margin-top: 20px;
+	border-radius: 30px;
+	width: 200px;
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
